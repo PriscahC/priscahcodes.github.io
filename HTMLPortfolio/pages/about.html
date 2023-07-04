@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/about.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Three">
+        
+        <div class="container">
+            <div class="bubbles">       <!--building bubbles for our animation using span -->
+                <span style="--1:11;"></span>
+                <span style="--1:12;"></span>
+                <span style="--1:24;"></span>
+                <span style="--1:10;"></span>
+                <span style="--1:14;"></span>
+                <span style="--1:23;"></span>
+                <span style="--1:18;"></span>
+                <span style="--1:16;"></span>
+                <span style="--1:19;"></span>
+                <span style="--1:20;"></span>
+                <span style="--1:22;"></span>
+                <span style="--1:25;"></span>
+                <span style="--1:18;"></span>
+                <span style="--1:21;"></span>
+                <span style="--1:15;"></span>
+                <span style="--1:13;"></span>
+                <span style="--1:26;"></span>
+                <span style="--1:25;"></span>
+                <span style="--1:17;"></span>
+                <span style="--1:13;"></span>
+                <span style="--1:28;"></span>
+                 <span style="--1:23;"></span>
+                <span style="--1:18;"></span>
+                <span style="--1:16;"></span>
+                <span style="--1:19;"></span>
+                <span style="--1:20;"></span>
+                <span style="--1:22;"></span>
+                <span style="--1:25;"></span>
+                <span style="--1:18;"></span>
+                <span style="--1:21;"></span>
+                <span style="--1:13;"></span>
+                <span style="--1:26;"></span>
+                <span style="--1:25;"></span>
+                <span style="--1:17;"></span>
+                <span style="--1:13;"></span>
+                <span style="--1:28;"></span>
+                 <span style="--1:23;"></span>
+                <span style="--1:18;"></span>
+                <span style="--1:16;"></span>
+                <span style="--1:19;"></span>
+                <span style="--1:20;"></span>
+                <span style="--1:22;"></span>
+                <span style="--1:25;"></span>
+                <span style="--1:18;"></span>
+                <span style="--1:21;"></span>
+                <span style="--1:21;"></span>
+                <span style="--1:13;"></span>
+                <span style="--1:26;"></span>
+                <span style="--1:25;"></span>
+                <span style="--1:17;"></span>
+                <span style="--1:13;"></span>
+                <span style="--1:28;"></span>
+                 <span style="--1:23;"></span>
+                <span style="--1:18;"></span>
+                <span style="--1:16;"></span>
+                <span style="--1:19;"></span>
+                <span style="--1:20;"></span>
+                <span style="--1:22;"></span>
+                <span style="--1:25;"></span>
+                <span style="--1:18;"></span>
+                <span style="--1:21;"></span>
+                
+            </div>
+        </div>
+
+        <div class="ThreeT">
+            
+            <div class="intro">
+                <h1>
+                    A sneak peek into my <br> My skills and interests.
+                </h1>               
+            </div>
+        </div>
+        <div>
+            <div class="accordion">
+                <div class="contentBx">
+                    <div class="label"><h1>View Skills </h1></div>
+                    <div class="content">
+                        <img src="/images/skills.png" alt="HTML, CSS, JavaScript">
+                        <img src="/images/mongodb.png" alt="MongoDB">
+                        <img src="/images/React.jpg" alt="">
+                        <img src="/images/node.png" alt="">
+                        <img src="/images/figma.png" alt="">
+                    </div>
+                </div>
+                <div class="contentBx">
+                    <div class="label"><h1>View Interests</h1></div>
+                    <div class="content">
+                        <div class="works">
+                            <img src="/images/black.png" alt="Making friends">
+                            <img src="/images/adventure.png" alt="adventure">
+                            <img src="/images/mwezina dada.png" alt="mentorship">
+                            <img src="/images/modelling.png" alt="Acting">
+                            <img src="/images/friends.jpg" alt="Socializing">
+                            <p>...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            
+            
+            
+        </div>
+
+    </div>
+    <script>   //vanilla js for the accordion
+        const accordion = document.getElementsByClassName('contentBx'); //targets the class
+
+        for (i = 0; i<accordion.length; i++) { //a loop function
+            accordion[i].addEventListener('click',function(){
+                this.classList.toggle("active")     //on click of the label, it toggles and features the CSS at active .contentBx.active.content 
+            })
+        }
+    </script>
+</body>
+</html>

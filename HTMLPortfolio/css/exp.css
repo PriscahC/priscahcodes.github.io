@@ -1,0 +1,122 @@
+.Page{
+    background-color: rgba(0, 0, 112, 0.5);
+}
+.Exp {
+    /* background: linear-gradient(#8277e6, #011721); */
+    min-width: 100%;  
+    display: grid;
+    grid-template-columns: 10% 90%;    
+}
+.ExpL{
+    padding: 60px 30px;
+}
+.ExpR{
+    margin-top: 40px;
+    text-align: right;
+}
+nav ul {
+    padding: 30px 30px 30px 30px;
+    background-color: rgba(0, 80, 112, 0.2);
+    border-radius: 15px;
+   
+}
+
+.tag{
+    margin-top: -200px;
+    margin-left: 500px;
+}
+
+/*PAGE 3*/
+    .Div3   {
+        background-color: rgb(44, 56, 82);       
+    }
+
+    .Div3 h2 {                                  /*modification of h1 */
+        font-family: Epilogue sans-serif;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 80px;
+        letter-spacing: -2px;
+        color: white;
+        text-align: center;
+    }
+    /* .Div3 a {
+        text-align: end;
+    } */
+
+    .top {
+        
+        padding: 30px 50px;    
+    }
+    /* .TopR {
+        text-align: right;    
+    } */
+    .TopR a{
+        font-family: constantia,sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+        text-decoration: none;
+        color:white;
+        
+    }
+    .box{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        justify-content: center;
+        align-items: center;
+        min-height: 400px;
+        margin-bottom: 50px;
+    }
+    .card{
+        height: 365px;
+        padding: 20ppx 35px;
+        background-color: #191919;
+        border-radius: 20px;
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        transition: 0.5s;
+        margin-top: 50px;
+        
+    }
+    .card:hover{
+        background: rgba(0, 0, 112, 0.6);
+        height: 105%;
+        pad: 20px;
+    }
+    .certs h1{
+        font-family: Epilogue sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        /* font-weight: 800; */
+        line-height: 20px;
+        letter-spacing: -2px;
+        color: white;
+        text-align: center;
+    }
+    .certs h2{
+        color: aliceblue;
+    }
+
+button{
+    margin-left: 45%;
+    height: 80px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 112);
+    color: aliceblue;
+}
+
+.socials  ul{
+    list-style-type: none;
+    /* margin-left: 50px; */
+    padding: 30px 10px 20px 10px;
+    /* display: inline-block; */
+    float: right;
+    
+}
+
+
+
